@@ -13,10 +13,10 @@ Conclusions are highlighted below each plotted figure.  The weather data was gat
     
 All points obtained to describe the day of 6/13/2021. The data was cleaned and conditions were compared to the distance of that city to the equator. Plots included:
 
-    * Temperature (F) vs. Latitude
-    * Humidity (%) vs. Latitude
-    * Cloudiness (%) vs. Latitude
-    * Wind Speed (mph) vs. Latitude
+    Temperature (F) vs. Latitude
+    Humidity (%) vs. Latitude
+    Cloudiness (%) vs. Latitude
+    Wind Speed (mph) vs. Latitude
 
 Regressions are calculated on the same data divided by hemisphere. These were added to additional plots.
 
@@ -35,9 +35,9 @@ All scatterplots are exported and saved into the output folder, within images.
 
 The data cleaned for the weather analysis is then used to create a global heatmap of humidity.  Potential vacation locations are identified by optimal weather conditions.  The criteria used is:
 
-    A max temperature lower than 80 degrees but higher than 70 (F)
-    Wind speed less than 10 mph
-    Zero cloudiness
+   * A max temperature lower than 80 degrees but higher than 70 (F)
+   * Wind speed less than 10 mph
+   * Zero cloudiness
     
 Hotels are found for each qualifying city and markers with their information are displayed overtop of the global humidity heatmap.
 
