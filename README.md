@@ -4,12 +4,12 @@ This project contains a Jupyter Notebook analysis of weather condition across th
 
 ##### WeatherPy
 
-Conclusions are highlighted below each plotted figure.  The weather data was gathered from current condidtions through the OpenWeatherMap API for cities randomly selected using the citypy Python library.  Conditions recorded for each city were:
+Conclusions are highlighted below each plotted figure.  The weather data was gathered from current condidtions through the OpenWeatherMap API for cities randomly selected using the citypy Python library.  Weather attributes for each city gathered:
 
-    Maximum Temperature
-    Humidity
-    Cloudiness
-    Wind Speed
+  * Maximum Temperature
+  * Humidity
+  * Cloudiness
+  * Wind Speed
     
 All points obtained to describe the day of 6/13/2021. The data was cleaned and conditions were compared to the distance of that city to the equator. Plots included:
 
@@ -18,7 +18,7 @@ All points obtained to describe the day of 6/13/2021. The data was cleaned and c
     Cloudiness (%) vs. Latitude
     Wind Speed (mph) vs. Latitude
 
-Regressions are calculated on the same data divided by hemisphere. These were added to additional plots.
+Regressions are calculated on the same data divided by hemisphere. These were added to additional plots:
 
     Northern Hemisphere - Temperature (F) vs. Latitude
     Southern Hemisphere - Temperature (F) vs. Latitude
