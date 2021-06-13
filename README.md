@@ -33,12 +33,12 @@ All scatterplots are exported and saved into the output folder, within images.
 
 ### VacationPy
 
-The data cleaned for the weather analysis is then used to create a global heatmap of humidity.  Potential vacation locations are identified by optimal weather conditions.  The criteria used is:
+The weather analysis data is then used to create a global heatmap of humidity.  Potential vacation locations are identified by optimal weather conditions.  The criteria used is:
 
    * A max temperature lower than 80 degrees but higher than 70 (F)
    * Wind speed less than 10 mph
    * Zero cloudiness
     
-Hotels are found for each qualifying city and markers with their information are displayed overtop of the global humidity heatmap.
+The Google Places API is utlilized to find hotels near each qualifying city.  Markers with the hotel information are then displayed overtop of the global humidity heatmap.
 
 Screenshots of the resulting maps can be found within the output folder, within images.
